@@ -1,0 +1,25 @@
+name: SnowballFight
+version: 1.0
+main: ru.javaroot.snowballfight.SnowballFight
+api-version: 1.21
+description: Новогодний плагин от джавы
+author: JavaRoot
+
+commands:
+  snowballfight:
+    description: Команды для управления плагином SnowballFight
+    aliases: [sbf]
+    usage: /<command> [reload]
+    permission: snowballfight.command
+  sbf:
+    description: Сокращение для команды snowballfight
+    usage: /<command> [reload]
+    permission: snowballfight.command
+
+permissions:
+  snowballfight.command:
+    description: Позволяет использовать команды плагина
+    default: op
+  snowballfight.reload:
+    description: Позволяет перезагружать плагин
+    default: op

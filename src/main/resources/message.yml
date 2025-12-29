@@ -1,0 +1,5 @@
+# Файл с сообщениями плагина SnowballFight
+reload_success: "&aПлагин перезагружен"
+no_permission: "&cУ вас нет прав на выполнение этой команды!"
+command_usage: "&cИспользование: /%command% [reload]"
+player_only: "&cТолько игрок может выполнить эту команду!"
