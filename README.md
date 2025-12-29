@@ -1,0 +1,2 @@
+# snowballfight
+plugin minecraft
